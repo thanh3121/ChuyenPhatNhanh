@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thông tin nhân viên"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView android:id="@+id/tv_emp_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mã NV: ..." android:textSize="16sp" android:layout_marginBottom="8dp" />
+                <TextView android:id="@+id/tv_emp_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Họ tên: ..." android:textSize="16sp" android:layout_marginBottom="8dp" />
+                <TextView android:id="@+id/tv_emp_hometown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quê quán: ..." android:textSize="16sp" android:layout_marginBottom="8dp" />
+                <TextView android:id="@+id/tv_emp_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Số điện thoại: ..." android:textSize="16sp" android:layout_marginBottom="8dp" />
+                <TextView android:id="@+id/tv_emp_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Trạng thái: ..." android:textSize="16sp" android:layout_marginBottom="8dp" />
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#EEEEEE" android:layout_marginVertical="12dp" />
+
+                <TextView android:id="@+id/tv_emp_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tài khoản: ..." android:textSize="16sp" android:layout_marginBottom="8dp" />
+                <TextView android:id="@+id/tv_emp_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mật khẩu: ..." android:textSize="16sp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_emp_logout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Đăng xuất"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF0000"
+            app:cornerRadius="28dp"
+            android:layout_marginTop="32dp" />
+
+    </LinearLayout>
+</ScrollView>

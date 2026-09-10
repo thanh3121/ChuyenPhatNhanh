@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#F97316</color>
+    <color name="primary_variant">#C2410C</color>
+    <color name="secondary">#F97316</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#E11D48</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#1F2937</color>
+    <color name="status_pending">#F97316</color>
+    <color name="status_success">#10B981</color>
+    <color name="status_cancelled">#E11D48</color>
+    <color name="hint_color">#6B7280</color>
+    <color name="dark_hint">#4B5563</color>
+</resources>
